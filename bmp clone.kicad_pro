@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|150475000|78100000|b5ea3fa8-2c13-41a0-bc11-0fbdaf0fe2c3|abe94cb8-e4da-4948-9cad-deb60a2f06b7",
+        "silk_overlap|136206022|76002500|7a611070-c1bd-41bf-8603-2b515d0040ee|416dd969-896c-4273-acce-9921054a176c",
+        "silk_overlap|136206022|76002500|7a611070-c1bd-41bf-8603-2b515d0040ee|7e9bae3e-822f-409f-8309-d33869a0af0c",
+        "silk_overlap|136206022|76002500|93d275be-90a9-4bc2-9886-7530067fd843|7e9bae3e-822f-409f-8309-d33869a0af0c",
+        "silk_overlap|138456022|76002500|7a611070-c1bd-41bf-8603-2b515d0040ee|c008ceb8-8b07-4947-9da2-d5586a8e4a2d",
+        "silk_overlap|138476022|76002500|7a611070-c1bd-41bf-8603-2b515d0040ee|c266734c-2d9c-4bce-a57d-8fa4003dec40",
+        "silk_overlap|138476022|76002500|d0810cc8-a7e2-42a5-911c-2823ca15d999|c266734c-2d9c-4bce-a57d-8fa4003dec40",
+        "silk_overlap|138476022|79887500|d0810cc8-a7e2-42a5-911c-2823ca15d999|c008ceb8-8b07-4947-9da2-d5586a8e4a2d",
+        "silk_overlap|140756022|76002500|1bf670e2-2a41-4186-89f3-87e88df7aba8|c191eac1-b574-490c-9636-14334cdf57ac",
+        "silk_overlap|140756022|76002500|1bf670e2-2a41-4186-89f3-87e88df7aba8|c266734c-2d9c-4bce-a57d-8fa4003dec40",
+        "silk_overlap|140756022|76002500|f58dfbf1-8959-480f-bbc3-16bc39e71abb|c191eac1-b574-490c-9636-14334cdf57ac",
+        "silk_overlap|140756022|76002500|f58dfbf1-8959-480f-bbc3-16bc39e71abb|c266734c-2d9c-4bce-a57d-8fa4003dec40"
+      ],
       "meta": {
         "version": 2
       },
@@ -484,7 +497,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../pcb git/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
