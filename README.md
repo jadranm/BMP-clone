@@ -1,5 +1,5 @@
 # BMP-clone
-black magic pro clone
+black magic probe clone
 
 work in progress
 
